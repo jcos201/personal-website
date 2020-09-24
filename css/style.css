@@ -9,12 +9,19 @@ body {
     flex-direction: column;
 }
 
+.brand-logo{
+    font-family: 'Pacifico', cursive;
+}
+
 .outline{
     border: 3px dotted red;
 }
 
 header {
-    height: 200px;
+    height: 250px;
+    background-image: url('../imgs/m82.jpg');
+    background-size: cover;
+    background-position: center;
 }
 main {
     flex-grow: 1;
