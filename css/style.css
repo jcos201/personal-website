@@ -18,11 +18,25 @@ body {
 }
 
 header {
-    height: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 300px;
     background-image: url('../imgs/m82.jpg');
     background-size: cover;
     background-position: center;
 }
+
+header img{
+    height: 100px;
+    margin-left: 20px;
+    border: 3px solid  #01579b;
+}
+
+header h3{
+    font-family: 'Pacifico', cursive;
+}
+
 main {
     flex-grow: 1;
 }
